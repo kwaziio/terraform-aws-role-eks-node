@@ -21,7 +21,7 @@ variable "iam_role_enable_full_s3_access" {
 }
 
 variable "iam_role_name" {
-  default     = "eks-cluster"
+  default     = "eks-node"
   description = "Name to Assign to the Created AWS IAM Role"
   type        = string
 }
